@@ -4,5 +4,5 @@ if [ -z "$SPARK_HOME" ]; then
   echo "SPARK_HOME is not set. Please set it to your Spark installation directory."
   exit 1
 fi
-$SPARK_HOME/bin/spark-submit  --master local[*] --class com.jecklgamis.spark.examples.SimpleApp target/spark-java-example.jar
+$SPARK_HOME/bin/spark-submit  --master local[*] --class spark.examples.SimpleApp target/spark-java-example.jar
 

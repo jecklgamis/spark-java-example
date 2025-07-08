@@ -1,5 +1,7 @@
 ## Spark Java Example
 
+[![Build](https://github.com/jecklgamis/spark-java-example/actions/workflows/build.yaml/badge.svg)](https://github.com/jecklgamis/spark-java-example/actions/workflows/build.yaml)
+
 This is an example Spark job using Java.
 
 ## Requirements

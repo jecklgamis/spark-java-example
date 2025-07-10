@@ -42,7 +42,7 @@ $SPARK_HOME/bin/spark-submit  \
 ```
 
 #####  Submitting Job To A Cluster
-Ensure a Spark cluster is running. See [Starting Standalone Cluster](#Starting Standalone Cluster)  on how to start a 
+Ensure a Spark cluster is running. See *Starting Standalone Cluster*  on how to start a 
 standalone cluster from your local machine.
 
 Submit a job in client deployment mode. In client mode, the driver is launched directly within the spark-submit process which acts as a client to the cluster.
@@ -64,7 +64,7 @@ $SPARK_HOME/bin/spark-submit \
   target/spark-java-example.jar
 ```` 
 
-## Starting Standalone Cluster {#Starting Standalone Cluster}
+## Starting Standalone Cluster
 This starts a master and a single worker in your local machine. Ensure the $SPARK_HOME points
 to your Spark installation.
 

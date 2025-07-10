@@ -64,7 +64,7 @@ $SPARK_HOME/bin/spark-submit \
   target/spark-java-example.jar
 ```` 
 
-## Starting Standalone Cluster
+## Starting Standalone Cluster {#Starting Standalone Cluster}
 This starts a master and a single worker in your local machine. Ensure the $SPARK_HOME points
 to your Spark installation.
 
